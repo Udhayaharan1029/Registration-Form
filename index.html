@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-cont">
+      <form action="">
+        <h2 class="title">Registration</h2>
+
+        <div class="name">
+          <div class="fname">
+            <label class="fnt-wght">Full Name</label>
+            <br />
+            <input class="input-type"
+              type="text"
+              id="name"
+              name="fullname"
+              placeholder="Enter your name" required
+            />
+            <br />
+          </div>
+          <div class="uname">
+            <label class="fnt-wght">Username</label><br />
+            <input class="input-type"
+              type="text"
+              id="name"
+              name="username"
+              placeholder="Enter your username" required
+            />
+          </div>
+         
+        </div>
+
+
+        <div class="name">
+          <div class="em">
+            <label class="fnt-wght">Email Id</label>
+            <br />
+            <input class="input-type"
+              type="email"
+              id="email"
+              name="emailid"
+              placeholder="Enter your email" required
+            />
+            <br />
+          </div>
+          <div class="ph">
+            <label class="fnt-wght">Phone Number</label><br />
+            <input class="input-type"
+              type="tel"
+              id="phonenum"
+              name="phonenum"
+              placeholder="Enter your number" required
+            />
+          </div>
+         
+        </div>
+
+
+
+
+        <div class="name">
+          <div class="password">
+            <label class="fnt-wght">Password</label>
+            <br />  
+            <input class="input-type"
+              type="password"
+              id="pswd"
+              name="password"
+              placeholder="Enter your password" minlength="8" maxlength="12" required
+            />
+            <br />
+          </div>
+          <div class="cnfrm-pswd">
+            <label class="fnt-wght">Confirm Password</label><br />
+            <input class="input-type"
+              type="password"
+              id="confrm-pswd"
+              name="confrm-pswd"
+              placeholder="Confirm your Password" minlength="8"
+              maxlength="12" required
+            />
+          </div>
+         
+        </div>
+           
+              <h3>Gender</h3>
+              <div class="gender">
+                 <div class="gen1"><input type="radio" name="gender" id="male" >
+                    <label for="gender" >Male</label></div>
+                  <div class="gen2"> <input type="radio" name="gender" id="male" >
+                    <label for="gender" >Female</label></div>
+                   <div class="gen3"> <input type="radio" name="gender" id="male" >
+                     <label for="gender" >Prefer not to say</label></div>
+             
+            </div>
+        
+            <div>
+               <br>
+                  <button class="register">Register</button>
+      
+            </div>
+        
+
+    </div>
+  </body>
+</html>

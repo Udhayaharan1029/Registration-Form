@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 700px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right top,
+    #e07eb6,
+    #d685c8,
+    #c88dd9,
+    #b696e7,
+    #a09ff2,
+    #929df5,
+    #819bf9,
+    #6c9afc,
+    #608dfc,
+    #5780fb,
+    #5173f9,
+    #4e64f6
+  );
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.main-cont {
+  height: 535px;
+  width: 700px;
+  background-color: #fff;
+  border: 2px solid grey;
+  border-radius: 7px;
+
+  margin: 50px auto;
+
+  padding: 5px 50px 0px 30px;
+}
+
+.title {
+  margin: 0 auto 0px;
+  position: relative;
+  line-height: 60px;
+  color: #000;
+}
+.title::after {
+  content: "";
+  background-image: linear-gradient(
+    to right top,
+    #e07eb6,
+    #d685c8,
+    #c88dd9,
+    #b696e7,
+    #a09ff2,
+    #929df5,
+    #819bf9,
+    #6c9afc,
+    #608dfc,
+    #5780fb,
+    #5173f9,
+    #4e64f6
+  );
+  width: 40px;
+  height: 5px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 5px;
+  left: 0%;
+}
+.name {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.fnt-wght {
+  font-weight: 600;
+}
+
+.input-type {
+  height: 40px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-size: 17px;
+  font-weight: 500;
+  text-indent: 10px;
+}
+/* .gender {
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+/* input[type="radio"] {
+  border: 0%;
+  width: 80px;
+  height: 20px;
+  accent-color: grey;
+} */
+.register {
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right top,
+    #e07eb6,
+    #d685c8,
+    #c88dd9,
+    #b696e7,
+    #a09ff2,
+    #929df5,
+    #819bf9,
+    #6c9afc,
+    #608dfc,
+    #5780fb,
+    #5173f9,
+    #4e64f6
+  );
+  border-radius: 6px;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 15px;
+  border: none;
+}
+.gender {
+  display: flex;
+  height: 30px;
+  width: 70;
+  display: flex;
+}
+.gen1 {
+  margin-right: 70px;
+}
+.gen3 {
+  margin-left: 70px;
+}
+input[type="radio"] {
+  accent-color: #5e5b5b;
+  width: 15px;
+  height: 15px;
+}
